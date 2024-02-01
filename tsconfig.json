@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "assumeChangesOnlyAffectDirectDependencies": false,
+    "downlevelIteration": true,
+    "emitBOM": false,
+    "esModuleInterop": true,
+    "incremental": true,
+    "jsx": "react",
+    "jsxFactory": "m",
+    "module": "nodenext",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "target": "esnext"
+  }
+}
