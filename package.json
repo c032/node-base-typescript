@@ -1,9 +1,23 @@
 {
-    "name": "node-base-typescript",
-    "version": "0.1.0",
-    "private": true,
-    "license": "MPL-2.0",
-    "dependencies": {
-        "typescript": "^5.3.3"
-    }
+  "name": "node-base-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MPL-2.0",
+  "bin": {
+    "fmt": "./bin/fmt.sh",
+    "lint": "./bin/lint.js"
+  },
+  "scripts": {
+    "fmt": "./bin/fmt.sh",
+    "lint": "./bin/lint.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.3.3"
+  }
 }

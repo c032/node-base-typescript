@@ -12,9 +12,24 @@ npm install --ignore-scripts --save-dev 'github:c032/node-base-typescript'
 
 ```json
 {
-    "extends": "node-base-typescript",
-    "compilerOptions": {
-        "outDir": "./build"
-    }
+  "extends": "node-base-typescript",
+  "compilerOptions": {
+    "outDir": "./build"
+  }
+}
+```
+
+## `package.json`
+
+```js
+{
+  // ...
+
+  "scripts": {
+    "fmt": "fmt",
+    "lint": "lint"
+  }
+
+  // ...
 }
 ```
