@@ -26,6 +26,7 @@ npm install --ignore-scripts --save-dev 'github:c032/node-base-typescript'
   // ...
 
   "scripts": {
+    "build": "tsc",
     "fmt": "fmt",
     "lint": "lint"
   }
