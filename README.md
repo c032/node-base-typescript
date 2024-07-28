@@ -4,8 +4,7 @@ Base TypeScript configuration for easily including in my projects.
 
 The main objective is having as much config as possible in this package,
 so that I can just include it in TypeScript projects and avoid
-cluttering them with so copy-pasted config files for formatting,
-linting, and stuff.
+cluttering them with so copy-pasted config files.
 
 ## Install
 
@@ -21,21 +20,5 @@ npm install --ignore-scripts --save-dev 'github:c032/node-base-typescript'
   "compilerOptions": {
     "outDir": "./build"
   }
-}
-```
-
-## `package.json`
-
-```js
-{
-  // ...
-
-  "scripts": {
-    "build": "tsc",
-    "fmt": "fmt",
-    "lint": "lint"
-  }
-
-  // ...
 }
 ```
